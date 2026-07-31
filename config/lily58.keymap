@@ -28,16 +28,9 @@
     combos {
         compatible = "zmk,combos";
 
-        TO_Gaming_Layer {
-            bindings = <&to 3>;
+        Gaming_Layer {
+            bindings = <&tog 3>;
             key-positions = <42 54 43 53>;
-            layers = <0>;
-        };
-
-        TO_Base_Layer {
-            bindings = <&to 0>;
-            key-positions = <42 53 43 54>;
-            layers = <3>;
         };
     };
 
